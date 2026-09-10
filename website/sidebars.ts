@@ -287,6 +287,12 @@ export default {
         collapsed: false,
         items: ['actionsheetios', 'dynamiccolorios', 'settings'],
       },
+      {
+        type: 'category',
+        label: 'TV APIs',
+        collapsed: false,
+        items: ['tveventhandler', 'usetveventhandler', 'tveventcontrol'],
+      },
     ],
   },
   components: {
@@ -323,6 +329,12 @@ export default {
         label: 'iOS Components',
         collapsed: false,
         items: ['inputaccessoryview', 'safeareaview'],
+      },
+      {
+        type: 'category',
+        label: 'TV Components',
+        collapsed: false,
+        items: ['tvfocusguideview', 'tvtextscrollview'],
       },
     ],
     Refs: ['nodes', 'element-nodes', 'text-nodes', 'document-nodes'],
